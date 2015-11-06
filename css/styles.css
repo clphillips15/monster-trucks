@@ -1,9 +1,17 @@
+header {
+background-image: url(../img/dark_Tire.png);
+}
+
+
+
 h1, h2 {
 font-family: 'Luckiest Guy', sans-serif, cursive;
+    color: rgb(243, 243, 244);
+    letter-spacing: 3.5px; 
 }
 
 h1{
-font-size: 5em;
+font-size: 5.5em;
 text-align:center;
 
 }
@@ -13,11 +21,12 @@ font-size: 2em;
 }
 
 body {
-background-color: rgb(216, 191, 96);
+background-color: rgb(44, 161, 195);
 }
 
 li{
 display:inline-block;
+    padding-top: 20px;
 }
 
 a:link {
@@ -25,6 +34,35 @@ font-family: 'Luckiest Guy', sans-serif;
 padding: 20px;
 text-decoration: none;
 font-size: 1.5em;
-color: rgb(71, 71, 139);
+color: rgb(243, 243, 244);
 
 }
+
+a:hover {
+font-size: 2.5em;
+ transition: background .5s;
+}
+
+blockquote {
+text-align: center;
+font-size: 2em;
+color: black;
+font-family: 'Raleway', sans-serif;
+}
+
+p{
+color: rgb(243, 243, 244);
+font-family: 'Raleway', sans-serif;
+    line-height: 1.5em;
+}
+
+img {
+border-radius: 40px; 
+}
+
+.wheel {
+width: 50px;
+    height: 50;
+}
+
+
